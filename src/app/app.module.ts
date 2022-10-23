@@ -11,6 +11,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CommonServiceService } from './common-service.service';
 import { ViewCustomerDetailsComponent } from './view-customer-details/view-customer-details.component';
 import { AlertComponent } from './alert/alert.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { AlertComponent } from './alert/alert.component';
     DashboardComponent,
     AddCustomerDetailsComponent,
     ViewCustomerDetailsComponent,
-    AlertComponent
+    AlertComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
