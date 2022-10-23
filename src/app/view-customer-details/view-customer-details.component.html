@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <table class="table">
+        <thead>
+            <th>Customer</th>
+            <th>Order Date</th>
+            <th>Order Details</th>
+            <th>Order amount</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let customer of customers">
+                <td>{{customer.name}}</td>
+                <td>{{customer.date}}</td>
+                <td>{{customer.orderDetails}}</td>
+                <td>{{customer.orderAmount}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
